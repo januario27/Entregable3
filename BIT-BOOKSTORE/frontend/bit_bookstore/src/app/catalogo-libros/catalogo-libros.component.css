@@ -1,0 +1,20 @@
+
+
+.card {
+    margin-top: 30px;
+}
+
+.background-general {
+    background-color: #025e74;
+    color: white;
+  }
+  
+  .background-button {
+    background-color: #049dbf;
+    color: white;
+  }
+  
+  .background-button:hover {
+    background-color: #025e74;
+    color: white;
+  }

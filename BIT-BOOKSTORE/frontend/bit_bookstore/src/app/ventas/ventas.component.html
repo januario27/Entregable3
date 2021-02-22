@@ -1,0 +1,120 @@
+<div class="container main-content">
+  <div class="row g-2" style="width: 100%">
+    <div class="titulo">
+      <h3>
+        Ventas
+        <a
+          role="button"
+          class="btn background-button"
+          style="float: right"
+          href="carrito-compras"
+          ><i class="bi bi-cart-plus-fill"></i> Nueva Venta</a
+        >
+      </h3>
+    </div>
+
+    <table class="table table-striped table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Cliente</th>
+          <th scope="col">Fecha</th>
+          <th scope="col">Total</th>
+          <th scope="col">Opciones</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Ivan Januario Peña Torres</th>
+          <td>21-02-2021</td>
+          <td>$ 45,000.00</td>
+          <td>
+            <button type="button" class="btn background-button">
+              <i class="bi bi-search"></i>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">Marfin Lucía Contreras Gelvez</th>
+          <td>13-08-2017</td>
+          <td>$ 99,000.00</td>
+          <td>
+            <button type="button" class="btn background-button">
+              <i class="bi bi-search"></i>
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<!-- Modal detalle Venta -->
+<div
+  class="modal fade"
+  id="exampleModal"
+  tabindex="-1"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Nuevo Usuario</h5>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Nombre</span>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="nombre"
+            aria-label="nombre"
+            aria-describedby="basic-addon1"
+          />
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Dirección</span>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="direccion"
+            aria-label="direccion"
+            aria-describedby="basic-addon1"
+          />
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Celular</span>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="celular"
+            aria-label="celular"
+            aria-describedby="basic-addon1"
+          />
+        </div>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="basic-addon1">Correo</span>
+          <input
+            type="text"
+            class="form-control"
+            placeholder="correo"
+            aria-label="correo"
+            aria-describedby="basic-addon1"
+          />
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Cancelar
+        </button>
+        <button type="button" class="btn background-button">Guardar</button>
+      </div>
+    </div>
+  </div>
+</div>
